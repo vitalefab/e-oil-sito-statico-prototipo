@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Oil | Area Riservata</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d1b2a;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h1, h2, h3, h4, h5 {
+      color: #ffffff;
+    }
+    .btn-warning {
+      background-color: #fca311;
+      border: none;
+    }
+    .btn-warning:hover {
+      background-color: #f77f00;
+    }
+    .btn-outline-light {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+    .form-control {
+      background-color: #1b263b;
+      color: #ffffff;
+      border: 1px solid #444;
+    }
+    .form-control:focus {
+      background-color: #243447;
+      color: #ffffff;
+      border-color: #fca311;
+    }
+    .nav-link, .navbar-brand {
+      color: #ffffff !important;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">E-Oil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="come-funziona.html">Come Funziona</a></li>
+          <li class="nav-item"><a class="nav-link" href="offerte-carburanti.html">Offerte</a></li>
+          <li class="nav-item"><a class="nav-link active" href="area-riservata.html">Area Riservata</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Registrati o accedi alla tua dashboard professionale</h1>
+    <p class="mb-4">Accedi ad una piattaforma progettata per professionisti del settore carburanti.</p>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="company" class="form-label">Nome azienda</label>
+        <input type="text" class="form-control" id="company" required>
+      </div>
+      <div class="col-md-6">
+        <label for="vat" class="form-label">Partita IVA</label>
+        <input type="text" class="form-control" id="vat" required pattern="\\d+">
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Telefono</label>
+        <input type="tel" class="form-control" id="phone">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-warning me-2">Registrati ora gratuitamente</button>
+        <a href="#" class="btn btn-outline-light">Accedi</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
