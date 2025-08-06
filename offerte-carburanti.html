@@ -38,7 +38,7 @@
       text-decoration: underline;
     }
   .logo {
-    max-height: 50px; /* o qualsiasi valore tu ritenga opportuno */
+    max-height: 70px; /* o qualsiasi valore tu ritenga opportuno */
     width: auto;
   }
 
@@ -50,7 +50,11 @@
       font-size: 0.9em;
     }
 
-
+.nav-link.active {
+  color: #fca311 !important; /* o un altro colore per evidenziare */
+  font-weight: bold;
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
@@ -74,7 +78,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
     <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="Eoil Logo_20250805.png" alt="Logo" class="logo me-2">
+      <img src="Eoil_Logo.png" alt="Logo" class="logo me-2">
       <img src="logo.png" alt="Second Logo" class="logo me-2">
       SCAMBIO CARBURANTI
     </a>
@@ -85,7 +89,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="come-funziona.html">Come Funziona</a></li>
-        <li class="nav-item"><a class="nav-link" href="offerte-carburanti.html">Richieste Attive</a></li>
+        <li class="nav-item"><a class="nav-link active" href="offerte-carburanti.html">Richieste Attive</a></li>
         <li class="nav-item"><a class="nav-link" href="area-riservata.html">Area Riservata</a></li>
         <li class="nav-item"><a class="nav-link btn btn-outline-info ms-2" href="contatti.html">Contatti</a></li>
       </ul>
