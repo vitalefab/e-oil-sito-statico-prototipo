@@ -33,10 +33,23 @@
     ol > li {
       margin-bottom: 10px;
     }
+  .logo {
+    max-height: 50px; /* o qualsiasi valore tu ritenga opportuno */
+    width: auto;
+  }
+
+      .footer {
+      border-top: 1px solid #444;
+      padding: 20px 0;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">E-Oil</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -52,6 +65,26 @@
         </ul>
       </div>
     </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="Eoil Logo_20250805.png" alt="Logo" class="logo me-2">
+      <img src="logo.png" alt="Second Logo" class="logo me-2">
+      SCAMBIO CARBURANTI
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="come-funziona.html">Come Funziona</a></li>
+        <li class="nav-item"><a class="nav-link" href="offerte-carburanti.html">Richieste Attive</a></li>
+        <li class="nav-item"><a class="nav-link" href="area-riservata.html">Area Riservata</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-info ms-2" href="contatti.html">Contatti</a></li>
+      </ul>
+    </div>
   </nav>
 
   <div class="container mt-5">
@@ -65,6 +98,23 @@
     <a class="btn btn-warning" href="area-riservata.html">Scopri i vantaggi</a>
   </div>
 
+<footer class="footer bg-dark text-white py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="privacy.html" class="text-white text-decoration-none me-3">Privacy</a>
+        <a href="contatti.html" class="text-white text-decoration-none me-3">Contattaci</a>
+        <a href="area-riservata.html" class="btn btn-outline-light btn-sm">Accedi Ora</a>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col">
+        <small class="text-white-50">Webmaster: <a href="https://www.perfexia.it" class="text-white-50 text-decoration-none" target="_blank">Perfexia Srl</a></small>
+      </div>
+    </div>
+  </div>
+</footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
